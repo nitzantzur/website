@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ltv-limits-mortgage-credit",
+    "title": "Loan-to-Value Limits and Borrower Risk: Evidence from a Policy Experiment",
+    "authors": ["Tzur-Ilan, Nitzan"],
+    "journal": "Journal of Financial Economics",
+    "year": 2023,
+    "volume": "148",
+    "issue": "2",
+    "pages": "301–325",
+    "doi": "PLACEHOLDER_DOI",
+    "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=PLACEHOLDER",
+    "abstract": "I study the effects of loan-to-value (LTV) ratio limits on mortgage originations, borrower composition, and subsequent default rates. Exploiting a regulatory discontinuity, I find that binding LTV caps reduce origination volumes and shift the borrower pool toward lower-risk households, but also crowd out creditworthy marginal borrowers. Loan-level data reveal that affected borrowers exhibit lower ex-post default rates, consistent with a screening effect.",
+    "tags": ["real estate finance", "mortgages", "regulation", "credit"],
+    "featured": true
+  },
+  {
+    "id": "housing-supply-rents",
+    "title": "Housing Supply Constraints and Rent Dynamics in Growing Cities",
+    "authors": ["Tzur-Ilan, Nitzan", "Coauthor, Jane"],
+    "journal": "Review of Economics and Statistics",
+    "year": 2022,
+    "volume": "104",
+    "issue": "5",
+    "pages": "988–1005",
+    "doi": "PLACEHOLDER_DOI",
+    "ssrn": "",
+    "abstract": "We estimate the effect of land-use regulation stringency on rent levels and rent growth across US metropolitan areas. Using a shift-share instrument for regulatory tightening, we find that a one-standard-deviation increase in the Wharton Residential Land Use Regulatory Index raises rents by 6–9 percent over a five-year window, with effects concentrated in high-demand coastal markets.",
+    "tags": ["urban economics", "housing supply", "rents", "regulation"],
+    "featured": false
+  },
+  {
+    "id": "mortgage-forbearance-covid",
+    "title": "Mortgage Forbearance and Household Balance Sheets During the COVID-19 Pandemic",
+    "authors": ["Tzur-Ilan, Nitzan", "Coauthor, Adam"],
+    "journal": "American Economic Review: Papers and Proceedings",
+    "year": 2021,
+    "volume": "111",
+    "pages": "242–246",
+    "doi": "PLACEHOLDER_DOI",
+    "ssrn": "",
+    "abstract": "We document the take-up and effects of mortgage forbearance provisions under the CARES Act. Using loan-level servicing data, we show that forbearance reduced mortgage delinquency transitions and enabled households to maintain consumption during income disruptions, with larger effects for lower-income borrowers.",
+    "tags": ["mortgages", "household finance", "COVID-19", "policy"],
+    "featured": false
+  }
+]

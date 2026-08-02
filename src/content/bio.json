@@ -1,0 +1,27 @@
+{
+  "name": "Nitzan Tzur-Ilan",
+  "title": "Research Economist",
+  "institution": "Federal Reserve Bank of Dallas",
+  "department": "Research Department",
+  "location": "Dallas, TX",
+  "email": "nitzan.tzur-ilan@dal.frb.org",
+  "photo": "/photo.jpg",
+  "bio_short": "I am a Research Economist at the Federal Reserve Bank of Dallas. My research focuses on real estate finance, urban economics, and environmental economics, studying how local economic shocks shape housing markets and household behavior.",
+  "bio_long": "I am a Research Economist at the Federal Reserve Bank of Dallas. My research lies at the intersection of real estate finance, urban economics, and environmental economics. I study how local shocks — from credit market policy to large infrastructure investments — affect housing prices, rents, migration, and consumer spending. My ongoing work examines the local effects of data center openings on residential real estate markets. I use quasi-experimental methods, including event studies and difference-in-differences designs, applied to large administrative and transaction-level datasets.",
+  "research_interests": [
+    "Real Estate Finance",
+    "Urban Economics",
+    "Environmental Economics",
+    "Household Finance",
+    "Applied Microeconometrics"
+  ],
+  "links": {
+    "google_scholar": "https://scholar.google.com/citations?user=PLACEHOLDER",
+    "repec": "https://ideas.repec.org/e/PLACEHOLDER.html",
+    "ssrn": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=PLACEHOLDER",
+    "github": "https://github.com/nitzantzur",
+    "linkedin": "https://www.linkedin.com/in/nitzan-tzur-ilan",
+    "dallas_fed_profile": "https://www.dallasfed.org/research/economists/tzur-ilan",
+    "cv": ""
+  }
+}

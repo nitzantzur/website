@@ -1,0 +1,38 @@
+[
+  {
+    "id": "assa-2024-data-centers",
+    "title": "Data Centers and Local Housing Markets",
+    "event": "Allied Social Science Associations Annual Meeting (ASSA)",
+    "location": "San Antonio, TX",
+    "date": "2024-01-06",
+    "slides_url": "",
+    "type": "conference"
+  },
+  {
+    "id": "areuea-2023-ltv",
+    "title": "Loan-to-Value Limits and Borrower Risk",
+    "event": "American Real Estate and Urban Economics Association (AREUEA) National Conference",
+    "location": "Washington, D.C.",
+    "date": "2023-05-19",
+    "slides_url": "",
+    "type": "conference"
+  },
+  {
+    "id": "fed-board-seminar-2023",
+    "title": "Flood Risk Discounting in Residential Mortgage Pricing",
+    "event": "Federal Reserve Board Real Estate Finance Seminar",
+    "location": "Washington, D.C.",
+    "date": "2023-11-08",
+    "slides_url": "",
+    "type": "seminar"
+  },
+  {
+    "id": "uea-2023-housing-supply",
+    "title": "Housing Supply Constraints and Rent Dynamics in Growing Cities",
+    "event": "Urban Economics Association Annual Meeting",
+    "location": "Toronto, Canada",
+    "date": "2023-10-20",
+    "slides_url": "",
+    "type": "conference"
+  }
+]

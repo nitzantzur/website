@@ -1,0 +1,20 @@
+[
+  {
+    "id": "wsj-mortgage-forbearance-2021",
+    "outlet": "The Wall Street Journal",
+    "title": "Millions Used Mortgage Forbearance to Stay Afloat. What Happens Now?",
+    "date": "2021-06-15",
+    "url": "https://www.wsj.com/articles/PLACEHOLDER",
+    "type": "article",
+    "description": "Coverage of research on CARES Act mortgage forbearance and household balance sheets during the pandemic."
+  },
+  {
+    "id": "dallas-fed-podcast-data-centers-2024",
+    "outlet": "Dallas Fed Podcast",
+    "title": "The Economic Footprint of Data Centers",
+    "date": "2024-10-01",
+    "url": "https://www.dallasfed.org/research/podcasts/PLACEHOLDER",
+    "type": "podcast",
+    "description": "Discussion of ongoing research on data center openings and their effects on local housing markets."
+  }
+]
