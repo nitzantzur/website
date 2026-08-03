@@ -64,18 +64,18 @@ export default function Home() {
       <PageSEO canonicalPath="/" />
       <main className="page-container">
         {/* Hero */}
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start sm:items-center mb-16">
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 items-start mb-16">
           {/* Photo */}
           <div className="flex-shrink-0">
             {photoError ? (
-              <Monogram name={bio.name} size={120} />
+              <Monogram name={bio.name} size={200} />
             ) : (
               <img
                 src={bio.photo}
                 alt={bio.name}
-                width={120}
-                height={120}
-                className="w-[120px] h-[120px] rounded-full object-cover bg-slate-100"
+                width={200}
+                height={240}
+                className="w-[200px] h-[240px] rounded-lg object-cover object-top bg-slate-100"
                 onError={() => setPhotoError(true)}
               />
             )}

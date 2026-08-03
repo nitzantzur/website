@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async'
 const SITE_URL = 'https://www.nitzantzur-ilan.com'
 const SITE_NAME = 'Nitzan Tzur-Ilan'
 const DEFAULT_DESCRIPTION =
-  'Research Economist at the Federal Reserve Bank of Dallas. Research in real estate finance, urban economics, and environmental economics.'
+  'Senior Research Economist at the Federal Reserve Bank of Dallas. Research in household finance, real estate, financial regulation, and banking.'
 const OG_IMAGE = `${SITE_URL}/photo.jpg`
 
 interface Props {
