@@ -54,7 +54,7 @@ export default function Home() {
     { label: 'RePEC', href: bio.links.repec, icon: <GenericLinkIcon /> },
     { label: 'GitHub', href: bio.links.github, icon: <GitHubIcon /> },
     { label: 'LinkedIn', href: bio.links.linkedin, icon: <LinkedInIcon /> },
-    { label: 'Dallas Fed', href: bio.links.dallas_fed_profile, icon: <GenericLinkIcon /> },
+    { label: 'Dallas Fed', href: bio.links.dallas_fed_profile, icon: <img src="/dallasfed-icon.png" alt="" className="w-4 h-4 rounded-sm object-cover" /> },
   ].filter((l) => l.href && !l.href.includes('PLACEHOLDER'))
 
   const featuredPapers = publications.filter((p) => p.featured)
