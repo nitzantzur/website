@@ -89,7 +89,10 @@ export default function Home() {
               {bio.name}
             </h1>
             <p className="text-base text-slate-600 mb-1">{bio.title}</p>
-            <p className="text-lg text-slate-700 mb-5">{bio.institution}</p>
+            <div className="flex items-center justify-center gap-2 mb-5">
+              <img src="/dallasfed-icon.png" alt="Dallas Fed" className="w-6 h-6 rounded-sm object-cover" />
+              <p className="text-lg text-slate-700">{bio.institution}</p>
+            </div>
 
             <p className="text-sm text-slate-600 mb-5">
               E-mail:{' '}
