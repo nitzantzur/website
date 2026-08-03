@@ -64,11 +64,11 @@ export default function Home() {
       <PageSEO canonicalPath="/" />
       <main className="page-container">
 
-        {/* Hero — centered, matching current site style */}
-        <div className="flex flex-col items-center text-center mb-16">
+        {/* Hero — photo left, details right */}
+        <div className="flex flex-col sm:flex-row gap-10 sm:gap-14 items-start mb-16">
 
           {/* Photo */}
-          <div className="mb-8">
+          <div className="flex-shrink-0">
             {photoError ? (
               <Monogram name={bio.name} size={200} />
             ) : (
@@ -83,71 +83,67 @@ export default function Home() {
             )}
           </div>
 
-          {/* Name */}
-          <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-3">
-            {bio.name}
-          </h1>
+          {/* Details */}
+          <div className="flex-1 min-w-0">
+            <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-2">
+              {bio.name}
+            </h1>
+            <p className="text-xl text-slate-700 mb-1">{bio.title}</p>
+            <p className="text-xl text-slate-700 mb-5">{bio.institution}</p>
 
-          {/* Title */}
-          <p className="text-xl text-slate-700 mb-1">{bio.title}</p>
-
-          {/* Institution */}
-          <p className="text-xl text-slate-700 mb-6">{bio.institution}</p>
-
-          {/* Email */}
-          <p className="text-base text-slate-600 mb-6">
-            E-mail:{' '}
-            <a href={`mailto:${bio.email}`} className="link-default">
-              {bio.email}
-            </a>
-          </p>
-
-          {/* CV link */}
-          {bio.links.cv && (
-            <a
-              href={bio.links.cv}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base font-bold text-slate-900 underline underline-offset-4 hover:text-brand-700 transition-colors mb-8"
-            >
-              Curriculum Vitae
-            </a>
-          )}
-
-          {/* Research Interests */}
-          <div className="mb-8">
-            <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-3">
-              Research Interests
+            <p className="text-sm text-slate-600 mb-5">
+              E-mail:{' '}
+              <a href={`mailto:${bio.email}`} className="link-default">
+                {bio.email}
+              </a>
             </p>
-            <div className="flex flex-wrap justify-center gap-2">
-              {bio.research_interests.map((interest) => (
-                <span
-                  key={interest}
-                  className="text-sm text-slate-700 border border-slate-200 rounded-full px-3 py-1"
-                >
-                  {interest}
-                </span>
-              ))}
-            </div>
-          </div>
 
-          {/* Profile links */}
-          {links.length > 0 && (
-            <div className="flex flex-wrap justify-center gap-3">
-              {links.map(({ label, href, icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-3 py-1.5 transition-colors"
-                >
-                  {icon}
-                  {label}
-                </a>
-              ))}
+            {bio.links.cv && (
+              <a
+                href={bio.links.cv}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-sm font-bold text-slate-900 underline underline-offset-4 hover:text-brand-700 transition-colors mb-6"
+              >
+                Curriculum Vitae
+              </a>
+            )}
+
+            {/* Research Interests */}
+            <div className="mb-6">
+              <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-2">
+                Research Interests
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {bio.research_interests.map((interest) => (
+                  <span
+                    key={interest}
+                    className="text-sm text-slate-700 border border-slate-200 rounded-full px-3 py-1"
+                  >
+                    {interest}
+                  </span>
+                ))}
+              </div>
             </div>
-          )}
+
+            {/* Profile links */}
+            {links.length > 0 && (
+              <div className="flex flex-wrap gap-3">
+                {links.map(({ label, href, icon }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-3 py-1.5 transition-colors"
+                  >
+                    {icon}
+                    {label}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Working Papers */}
