@@ -110,14 +110,10 @@ export default function Home() {
             )}
 
             {/* Research Interests */}
-            <div className="mb-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-2">
-                Research Interests
-              </p>
-              <p className="text-sm text-slate-700">
-                {bio.research_interests.join(' · ')}
-              </p>
-            </div>
+            <p className="text-sm text-slate-700 mb-6">
+              <span className="font-semibold text-slate-500">Research Interests: </span>
+              {bio.research_interests.join(' · ')}
+            </p>
 
             {/* Profile links */}
             {links.length > 0 && (
