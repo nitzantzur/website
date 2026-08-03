@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           {/* Details */}
-          <div className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0 flex flex-col items-center text-center">
             <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-2">
               {bio.name}
             </h1>
@@ -114,7 +114,7 @@ export default function Home() {
               <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-2">
                 Research Interests
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap justify-center gap-2">
                 {bio.research_interests.map((interest) => (
                   <span
                     key={interest}
@@ -128,7 +128,7 @@ export default function Home() {
 
             {/* Profile links */}
             {links.length > 0 && (
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap justify-center gap-3">
                 {links.map(({ label, href, icon }) => (
                   <a
                     key={label}
