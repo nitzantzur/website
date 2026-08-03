@@ -114,16 +114,9 @@ export default function Home() {
               <p className="text-xs font-semibold uppercase tracking-widest text-slate-400 mb-2">
                 Research Interests
               </p>
-              <div className="flex flex-wrap justify-center gap-2">
-                {bio.research_interests.map((interest) => (
-                  <span
-                    key={interest}
-                    className="text-sm text-slate-700 border border-slate-200 rounded-full px-3 py-1"
-                  >
-                    {interest}
-                  </span>
-                ))}
-              </div>
+              <p className="text-sm text-slate-700">
+                {bio.research_interests.join(' · ')}
+              </p>
             </div>
 
             {/* Profile links */}
