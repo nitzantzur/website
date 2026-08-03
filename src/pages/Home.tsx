@@ -89,9 +89,11 @@ export default function Home() {
             <p className="text-sm text-slate-500 mb-4">
               {bio.title} &middot; {bio.institution}
             </p>
-            <p className="text-sm text-slate-700 leading-relaxed max-w-prose mb-5">
-              {bio.bio_short}
-            </p>
+            {bio.bio_short && (
+              <p className="text-sm text-slate-700 leading-relaxed max-w-prose mb-5">
+                {bio.bio_short}
+              </p>
+            )}
 
             {/* External links */}
             {links.length > 0 && (
