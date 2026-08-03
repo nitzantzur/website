@@ -85,35 +85,42 @@ export default function Home() {
 
           {/* Details */}
           <div className="flex-1 min-w-0 flex flex-col items-center text-center">
+            {/* Name */}
             <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-2">
               {bio.name}
             </h1>
+
+            {/* Title */}
             <p className="text-base text-slate-600 mb-1">{bio.title}</p>
-            <div className="flex items-center justify-center gap-2 mb-5">
+
+            {/* Institution */}
+            <div className="flex items-center justify-center gap-2 mb-3">
               <img src="/dallasfed-icon.png" alt="Dallas Fed" className="w-6 h-6 rounded-sm object-cover" />
               <p className="text-lg text-slate-700">{bio.institution}</p>
             </div>
 
-            <p className="text-sm text-slate-600 mb-5">
+            {/* CV */}
+            {bio.links.cv && (
+              <a
+                href={bio.links.cv}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-sm font-bold text-slate-900 underline underline-offset-4 hover:text-brand-700 transition-colors mb-3"
+              >
+                Curriculum Vitae
+              </a>
+            )}
+
+            {/* Email */}
+            <p className="text-sm text-slate-600 mb-3">
               E-mail:{' '}
               <a href={`mailto:${bio.email}`} className="link-default">
                 {bio.email}
               </a>
             </p>
 
-            {bio.links.cv && (
-              <a
-                href={bio.links.cv}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block text-sm font-bold text-slate-900 underline underline-offset-4 hover:text-brand-700 transition-colors mb-6"
-              >
-                Curriculum Vitae
-              </a>
-            )}
-
             {/* Research Interests */}
-            <p className="text-sm text-slate-700 mb-6">
+            <p className="text-sm text-slate-700 mb-5">
               <span className="font-bold text-slate-800">Research Interests: </span>
               {bio.research_interests.join(' · ')}
             </p>
