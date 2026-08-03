@@ -88,7 +88,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-2">
               {bio.name}
             </h1>
-            <p className="text-xl text-slate-700 mb-1">{bio.title}</p>
+            <p className="text-base text-slate-600 mb-1">{bio.title}</p>
             <p className="text-xl text-slate-700 mb-5">{bio.institution}</p>
 
             <p className="text-sm text-slate-600 mb-5">
