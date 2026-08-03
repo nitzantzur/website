@@ -111,7 +111,7 @@ export default function Home() {
 
             {/* Research Interests */}
             <p className="text-sm text-slate-700 mb-6">
-              <span className="font-semibold text-slate-500">Research Interests: </span>
+              <span className="font-bold text-slate-800">Research Interests: </span>
               {bio.research_interests.join(' · ')}
             </p>
 
