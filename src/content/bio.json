@@ -9,11 +9,11 @@
   "bio_short": "I am a Research Economist at the Federal Reserve Bank of Dallas. My research focuses on real estate finance, urban economics, and environmental economics, studying how local economic shocks shape housing markets and household behavior.",
   "bio_long": "I am a Research Economist at the Federal Reserve Bank of Dallas. My research lies at the intersection of real estate finance, urban economics, and environmental economics. I study how local shocks — from credit market policy to large infrastructure investments — affect housing prices, rents, migration, and consumer spending. My ongoing work examines the local effects of data center openings on residential real estate markets. I use quasi-experimental methods, including event studies and difference-in-differences designs, applied to large administrative and transaction-level datasets.",
   "research_interests": [
-    "Real Estate Finance",
-    "Urban Economics",
-    "Environmental Economics",
     "Household Finance",
-    "Applied Microeconometrics"
+    "Real Estate",
+    "Financial Regulation",
+    "Banking and Financial Intermediation",
+    "Financial Economics"
   ],
   "links": {
     "google_scholar": "https://scholar.google.com/citations?user=YHetKiMAAAAJ",
