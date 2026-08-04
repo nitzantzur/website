@@ -89,7 +89,7 @@ export default function Home() {
             <p className="text-base text-slate-600 mb-1">{bio.title}</p>
 
             {/* Institution */}
-            <div className="flex items-center justify-center gap-2 mb-3">
+            <div className="flex items-center justify-center gap-2 mb-6">
               <img src="/dallasfed-icon.png" alt="Dallas Fed" className="w-6 h-6 rounded-sm object-cover" />
               <p className="text-lg text-slate-700">{bio.institution}</p>
             </div>
