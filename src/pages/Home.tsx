@@ -107,7 +107,7 @@ export default function Home() {
             )}
 
             {/* Email */}
-            <p className="text-sm text-slate-600 mb-6">
+            <p className="text-[15px] text-slate-600 mb-6">
               E-mail:{' '}
               <a href={`mailto:${bio.email}`} className="link-default">
                 {bio.email}
@@ -129,7 +129,7 @@ export default function Home() {
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[12.75px] font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-2.5 py-1 transition-colors"
+                    className="inline-flex items-center gap-1 text-[13px] font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-2.5 py-1 transition-colors"
                   >
                     {icon}
                     {label}
