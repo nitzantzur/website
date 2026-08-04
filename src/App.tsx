@@ -13,9 +13,9 @@ export default function App() {
   const location = useLocation()
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex flex-col">
       <NavBar />
-      <div className="flex-1">
+      <div>
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
