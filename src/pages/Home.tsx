@@ -1,11 +1,8 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import PageWrapper from '@/components/layout/PageWrapper'
 import PageSEO from '@/components/seo/PageSEO'
 import Monogram from '@/components/ui/Monogram'
 import bio from '@/content/bio.json'
-import publications from '@/content/publications.json'
-import workingPapers from '@/content/working-papers.json'
 
 interface LinkItem {
   label: string
@@ -56,8 +53,6 @@ export default function Home() {
     { label: 'LinkedIn', href: bio.links.linkedin, icon: <LinkedInIcon /> },
     { label: 'Dallas Fed', href: bio.links.dallas_fed_profile, icon: <img src="/dallasfed-icon.png" alt="" className="w-4 h-4 rounded-sm object-cover" /> },
   ].filter((l) => l.href && !l.href.includes('PLACEHOLDER'))
-
-  const featuredPapers = publications.filter((p) => p.featured)
 
   return (
     <PageWrapper>
@@ -145,77 +140,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Working Papers */}
-        <section className="mb-16">
-          <div className="flex items-baseline justify-between mb-6">
-            <p className="section-heading mb-0">Working Papers</p>
-            <Link to="/working-papers" className="text-xs link-default">
-              View all →
-            </Link>
-          </div>
-          <div className="space-y-5">
-            {workingPapers.slice(0, 2).map((paper) => (
-              <div key={paper.id} className="border-b border-slate-100 pb-5">
-                <p className="font-serif text-[15px] text-slate-900 leading-snug mb-1">
-                  {paper.title}
-                </p>
-                {paper.coauthors.length > 0 && (
-                  <p className="text-xs text-slate-500 mb-1">
-                    With {paper.coauthors.join(', ')}
-                  </p>
-                )}
-                <p className="text-xs text-slate-500">
-                  {paper.date.slice(0, 4)}
-                  {paper.ssrn && !paper.ssrn.includes('PLACEHOLDER') && (
-                    <>
-                      {' · '}
-                      <a href={paper.ssrn} target="_blank" rel="noopener noreferrer" className="link-default">
-                        SSRN
-                      </a>
-                    </>
-                  )}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Featured Publications */}
-        {featuredPapers.length > 0 && (
-          <section className="mb-16">
-            <div className="flex items-baseline justify-between mb-6">
-              <p className="section-heading mb-0">Selected Publications</p>
-              <Link to="/publications" className="text-xs link-default">
-                View all →
-              </Link>
-            </div>
-            <div className="space-y-5">
-              {featuredPapers.map((pub) => (
-                <div key={pub.id} className="border-b border-slate-100 pb-5">
-                  <p className="font-serif text-[15px] text-slate-900 leading-snug mb-1">
-                    {pub.title}
-                  </p>
-                  <p className="text-xs text-slate-500">
-                    {pub.journal}, {pub.year}
-                    {pub.doi && !pub.doi.includes('PLACEHOLDER') && (
-                      <>
-                        {' · '}
-                        <a
-                          href={`https://doi.org/${pub.doi}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="link-default"
-                        >
-                          DOI
-                        </a>
-                      </>
-                    )}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
       </main>
     </PageWrapper>
