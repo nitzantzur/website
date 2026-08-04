@@ -100,7 +100,7 @@ export default function Home() {
                 href={bio.links.cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block text-xl font-bold text-slate-900 hover:text-brand-700 transition-colors mb-3"
+                className="inline-block text-xl font-bold text-slate-900 hover:text-brand-700 transition-colors mb-6"
               >
                 Curriculum Vitae
               </a>
