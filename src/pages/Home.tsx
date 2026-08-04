@@ -122,7 +122,7 @@ export default function Home() {
 
             {/* Profile links */}
             {links.length > 0 && (
-              <div className="flex flex-wrap justify-center gap-3">
+              <div className="flex flex-nowrap justify-center gap-3">
                 {links.map(({ label, href, icon }) => (
                   <a
                     key={label}
