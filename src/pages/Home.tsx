@@ -72,7 +72,7 @@ export default function Home() {
                 alt={bio.name}
                 width={200}
                 height={240}
-                className="w-[200px] h-[240px] rounded-lg object-cover object-top bg-slate-100"
+                className="w-[240px] h-[290px] rounded-lg object-cover object-top bg-slate-100"
                 onError={() => setPhotoError(true)}
               />
             )}
