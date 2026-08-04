@@ -107,7 +107,7 @@ export default function Home() {
             )}
 
             {/* Email */}
-            <p className="text-sm text-slate-600 mb-3">
+            <p className="text-sm text-slate-600 mb-6">
               E-mail:{' '}
               <a href={`mailto:${bio.email}`} className="link-default">
                 {bio.email}
