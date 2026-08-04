@@ -60,7 +60,7 @@ export default function Home() {
       <main className="page-container">
 
         {/* Hero — photo left, details right */}
-        <div className="flex flex-col sm:flex-row gap-10 sm:gap-14 items-start mb-6">
+        <div className="flex flex-col sm:flex-row gap-10 sm:gap-14 items-start mb-0">
 
           {/* Photo */}
           <div className="flex-shrink-0">

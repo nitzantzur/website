@@ -19,7 +19,7 @@
 
 @layer components {
   .page-container {
-    @apply max-w-content mx-auto px-6 pt-10 pb-4;
+    @apply max-w-content mx-auto px-6 pt-10 pb-0;
   }
 
   .section-heading {

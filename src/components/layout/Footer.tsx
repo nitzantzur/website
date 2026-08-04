@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-100 mt-6">
+    <footer className="border-t border-slate-100 mt-2">
       <div className="max-w-content mx-auto px-6 py-8 space-y-3">
         <p className="text-xs text-slate-400 italic">
           Disclaimer: The views expressed on this site do not necessarily reflect those of the Federal Reserve Bank of Dallas or the Federal Reserve System.
