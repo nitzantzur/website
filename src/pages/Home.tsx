@@ -129,7 +129,7 @@ export default function Home() {
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-3 py-1.5 transition-colors"
+                    className="inline-flex items-center gap-1 text-[11px] font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-2 py-1 transition-colors"
                   >
                     {icon}
                     {label}
