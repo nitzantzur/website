@@ -27,16 +27,16 @@ export default function NavBar() {
         scrolled ? 'shadow-sm bg-white/95 backdrop-blur-sm' : 'bg-white'
       }`}
     >
-      <div className="max-w-content mx-auto px-6 h-14 flex items-center justify-between relative">
+      <div className="max-w-content mx-auto px-6 h-24 pt-4 flex items-center justify-between gap-12 relative">
         <Link
           to="/"
-          className="text-sm font-semibold text-slate-800 tracking-tight hover:text-brand-700 transition-colors"
+          className="text-sm font-semibold text-slate-800 tracking-tight hover:text-brand-700 transition-colors whitespace-nowrap"
         >
           Nitzan Tzur-Ilan
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-16">
           {navItems.map(({ to, label }) => (
             <NavLink
               key={to}

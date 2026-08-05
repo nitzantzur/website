@@ -42,6 +42,14 @@ function LinkedInIcon() {
   )
 }
 
+function XIcon() {
+  return (
+    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  )
+}
+
 export default function Home() {
   const [photoError, setPhotoError] = useState(false)
 
@@ -52,6 +60,7 @@ export default function Home() {
     { label: 'LinkedIn', href: bio.links.linkedin, icon: <LinkedInIcon /> },
     { label: 'Dallas Fed', href: bio.links.dallas_fed_profile, icon: <img src="/dallasfed-icon.png" alt="" className="w-5 h-5 -m-0.5 object-contain" /> },
     { label: 'RePEC', href: bio.links.repec, icon: <GenericLinkIcon /> },
+    { label: 'X', href: bio.links.x, icon: <XIcon /> },
   ].filter((l) => l.href && !l.href.includes('PLACEHOLDER'))
 
   return (
@@ -81,15 +90,15 @@ export default function Home() {
           {/* Details */}
           <div className="w-full sm:w-auto sm:max-w-md min-w-0 flex flex-col items-center text-center">
             {/* Name */}
-            <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-2">
+            <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-4">
               {bio.name}
             </h1>
 
             {/* Title */}
-            <p className="text-base text-slate-600 mb-1">{bio.title}</p>
+            <p className="text-base text-slate-600 mb-3">{bio.title}</p>
 
             {/* Institution */}
-            <div className="flex items-center justify-center gap-2 mb-6">
+            <div className="flex items-center justify-center gap-2 mb-8">
               <img src="/dallasfed-icon.png" alt="Dallas Fed" className="w-6 h-6 rounded-sm object-cover" />
               <p className="text-lg text-slate-700">{bio.institution}</p>
             </div>
@@ -115,31 +124,30 @@ export default function Home() {
             </p>
 
             {/* Research Interests */}
-            <p className="text-sm text-slate-700 mb-6">
+            <p className="text-sm text-slate-700 mb-0">
               <span className="font-bold text-slate-800">Research Interests: </span>
               {bio.research_interests.join(' · ')}
             </p>
-
-            {/* Profile links */}
-            {links.length > 0 && (
-              <div className="flex flex-nowrap justify-center gap-3">
-                {links.map(({ label, href, icon }) => (
-                  <a
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[11px] font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-2.5 py-1 transition-colors"
-                  >
-                    {icon}
-                    {label}
-                  </a>
-                ))}
-              </div>
-            )}
           </div>
         </div>
 
+        {/* Profile links — one line, below the photo and research interests */}
+        {links.length > 0 && (
+          <div className="flex flex-nowrap justify-center gap-3 mt-8">
+            {links.map(({ label, href, icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] font-medium text-slate-600 hover:text-brand-700 border border-slate-200 hover:border-brand-300 rounded-full px-2.5 py-1 transition-colors"
+              >
+                {icon}
+                {label}
+              </a>
+            ))}
+          </div>
+        )}
 
       </main>
     </PageWrapper>
