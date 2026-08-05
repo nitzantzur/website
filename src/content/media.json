@@ -152,5 +152,29 @@
     "date": "2022-01-01",
     "url": "https://www.aeaweb.org/conference/2022/aea-session-recordings/player?meetingId=558&recordingId=951",
     "type": "video"
+  },
+  {
+    "id": "mba-newslink-insurance-delinquency-2026",
+    "outlet": "MBA NewsLink",
+    "title": "New Research Finds Rising Insurance Premiums Influence Mortgage Delinquencies, Relocations",
+    "date": "2026-03-31",
+    "url": "https://newslink.mba.org/servicing-newslink/2026/march/new-research-finds-insurance-premiums-influence-mortgage-delinquencies-relocations/",
+    "type": "article"
+  },
+  {
+    "id": "honest-economist-insurance-housing-2026",
+    "outlet": "The Honest Economist",
+    "title": "Housing Affordability's Hidden Third Variable",
+    "date": "2026-05-26",
+    "url": "https://www.honesteconomist.com/column/when-insurance-breaks-the-housing-model",
+    "type": "article"
+  },
+  {
+    "id": "bloomberg-insurance-inflation-2026",
+    "outlet": "Bloomberg",
+    "title": "Home Insurance Premiums Are a Hidden Inflation Time Bomb",
+    "date": "2026-04-14",
+    "url": "https://www.bloomberg.com/opinion/articles/2026-04-14/home-insurance-premiums-are-a-hidden-inflation-time-bomb",
+    "type": "op-ed"
   }
 ]
