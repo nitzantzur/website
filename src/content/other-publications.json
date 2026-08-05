@@ -1,0 +1,74 @@
+[
+  {
+    "id": "inflation-home-insurance-2026",
+    "title": "Measures of inflation misalign with pricier home insurance",
+    "coauthors": ["Jones, Rachel", "Taylor, Reid"],
+    "venue": "Dallas Fed Economics",
+    "year": 2026,
+    "url": "https://www.dallasfed.org/research/economics/2026/0409?d=1&s=li"
+  },
+  {
+    "id": "home-insurance-delinquency-2026",
+    "title": "Home insurance premiums influence mortgage delinquencies, relocations",
+    "coauthors": ["Ge, Shan", "Johnson, Stephanie"],
+    "venue": "Dallas Fed Economics",
+    "year": 2026,
+    "url": "https://www.dallasfed.org/research/economics/2026/0324"
+  },
+  {
+    "id": "wildfires-household-finances-2024",
+    "title": "Dirty air from wildfires casts a cloud over household finances",
+    "coauthors": ["An, Xudong", "Gabriel, Stuart A."],
+    "venue": "Dallas Fed Economics",
+    "year": 2024,
+    "url": "https://www.dallasfed.org/research/economics/2024/0924"
+  },
+  {
+    "id": "rents-air-pollution-2024",
+    "title": "Rents, home values depressed in air pollution hotspots",
+    "coauthors": ["Lopez, Luis", "Owen, Jackson"],
+    "venue": "Dallas Fed Economics",
+    "year": 2024,
+    "url": "https://www.dallasfed.org/research/economics/2024/0827"
+  },
+  {
+    "id": "eviction-moratoriums-2023",
+    "title": "COVID-era eviction moratoriums improved financial well-being…while they lasted",
+    "coauthors": ["Perlmeter, Emily", "Zhang, Xiaohan"],
+    "venue": "Dallas Fed Economics",
+    "year": 2023,
+    "url": "https://www.dallasfed.org/research/economics/2023/0411"
+  },
+  {
+    "id": "fiscal-monetary-covid-2020",
+    "title": "The Determinants of Fiscal and Monetary Policies During the Covid-19 Crisis",
+    "coauthors": ["Benmelech, Effi"],
+    "venue": "NBER Working Paper 27461",
+    "year": 2020,
+    "url": "https://www.nber.org/system/files/working_papers/w27461/w27461.pdf"
+  },
+  {
+    "id": "eviction-moratoria-cepr-2020",
+    "title": "COVID-19 rental eviction moratoria and household well-being",
+    "coauthors": ["An, Xudong", "Gabriel, Stuart"],
+    "venue": "Covid Economics, CEPR Research",
+    "year": 2020,
+    "url": "https://cepr.org/system/files/publication-files/101426-covid_economics_issue_74.pdf"
+  },
+  {
+    "id": "macroprudential-israel-bis-2017",
+    "title": "Assessing the impact of macroprudential tools: the case of Israel",
+    "coauthors": ["Baudot-Trajtenberg, Nadine", "Frayberg, Roi"],
+    "venue": "BIS Papers, Vol. 94, 107–218",
+    "year": 2017,
+    "url": "https://www.bis.org/publ/bppdf/bispap94o.pdf"
+  },
+  {
+    "id": "mortgage-pricing-israel-2019",
+    "title": "Does Location Matter? Evidence on Differential Mortgage Pricing in Israel",
+    "coauthors": ["Presman, Natalya"],
+    "venue": "Bank of Israel Working Paper",
+    "year": 2019,
+    "url": "https://ieca.org.il/wp-content/uploads/2019/07/Does-location-matter.pdf"
+  }
+]

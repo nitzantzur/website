@@ -6,6 +6,7 @@ const navItems = [
   { to: '/', label: 'Home' },
   { to: '/publications', label: 'Publications' },
   { to: '/working-papers', label: 'Working Papers' },
+  { to: '/policy-publications', label: 'Policy Publications' },
   { to: '/media', label: 'Media' },
   { to: '/talks', label: 'Talks' },
   { to: '/service', label: 'Service' },

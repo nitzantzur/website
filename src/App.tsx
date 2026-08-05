@@ -8,6 +8,7 @@ import WorkingPapers from '@/pages/WorkingPapers'
 import Media from '@/pages/Media'
 import Talks from '@/pages/Talks'
 import Service from '@/pages/Service'
+import OtherPublications from '@/pages/OtherPublications'
 
 export default function App() {
   const location = useLocation()
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/media" element={<Media />} />
             <Route path="/talks" element={<Talks />} />
             <Route path="/service" element={<Service />} />
+            <Route path="/policy-publications" element={<OtherPublications />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </AnimatePresence>
