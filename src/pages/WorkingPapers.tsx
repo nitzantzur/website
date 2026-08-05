@@ -36,12 +36,9 @@ export default function WorkingPapers() {
                   </p>
                 )}
 
-                <p className="text-xs text-slate-400 mb-2">
-                  {paper.date.slice(0, 4)}
-                  {paper.status === 'revise-resubmit' && paper.journal && (
-                    <span className="ml-2 text-amber-700 font-medium">· R&R at {paper.journal}</span>
-                  )}
-                </p>
+                {paper.status === 'revise-resubmit' && paper.journal && (
+                  <p className="text-xs text-amber-700 font-medium mb-2">R&R at {paper.journal}</p>
+                )}
 
                 {/* Links */}
                 <div className="flex flex-wrap gap-3 mb-2">
