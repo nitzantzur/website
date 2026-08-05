@@ -4,7 +4,12 @@ import type { MediaItem } from '@/types/content'
 import mediaData from '@/content/media.json'
 import { formatDate } from '@/utils/formatters'
 
-const media = mediaData as MediaItem[]
+const media = (mediaData as MediaItem[]).sort((a, b) => {
+  if (!a.date && !b.date) return 0
+  if (!a.date) return 1
+  if (!b.date) return -1
+  return b.date.localeCompare(a.date)
+})
 
 const TYPE_LABELS: Record<string, string> = {
   article: 'Article',
