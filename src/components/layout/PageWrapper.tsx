@@ -10,6 +10,7 @@ const variants = {
 export default function PageWrapper({ children }: { children: ReactNode }) {
   return (
     <motion.div
+      className="flex-1 flex flex-col"
       variants={variants}
       initial="initial"
       animate="animate"

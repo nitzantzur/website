@@ -48,19 +48,19 @@ export default function Home() {
   const links: LinkItem[] = [
     { label: 'Google Scholar', href: bio.links.google_scholar, icon: <GoogleScholarIcon /> },
     { label: 'SSRN', href: bio.links.ssrn, icon: <GenericLinkIcon /> },
-    { label: 'RePEC', href: bio.links.repec, icon: <GenericLinkIcon /> },
     { label: 'GitHub', href: bio.links.github, icon: <GitHubIcon /> },
     { label: 'LinkedIn', href: bio.links.linkedin, icon: <LinkedInIcon /> },
-    { label: 'Dallas Fed', href: bio.links.dallas_fed_profile, icon: <img src="/dallasfed-icon.png" alt="" className="w-4 h-4 rounded-sm object-cover" /> },
+    { label: 'Dallas Fed', href: bio.links.dallas_fed_profile, icon: <img src="/dallasfed-icon.png" alt="" className="w-5 h-5 -m-0.5 object-contain" /> },
+    { label: 'RePEC', href: bio.links.repec, icon: <GenericLinkIcon /> },
   ].filter((l) => l.href && !l.href.includes('PLACEHOLDER'))
 
   return (
     <PageWrapper>
       <PageSEO canonicalPath="/" />
-      <main className="page-container">
+      <main className="page-container flex-1 flex flex-col items-center justify-center">
 
-        {/* Hero — photo left, details right */}
-        <div className="flex flex-col sm:flex-row gap-10 sm:gap-14 items-start mb-0">
+        {/* Hero — photo and details centered as a group */}
+        <div className="flex flex-col sm:flex-row gap-10 sm:gap-14 items-center justify-center mb-0">
 
           {/* Photo */}
           <div className="flex-shrink-0">
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
 
           {/* Details */}
-          <div className="flex-1 min-w-0 flex flex-col items-center text-center">
+          <div className="w-full sm:w-auto sm:max-w-md min-w-0 flex flex-col items-center text-center">
             {/* Name */}
             <h1 className="text-4xl font-bold text-slate-900 tracking-tight mb-2">
               {bio.name}
