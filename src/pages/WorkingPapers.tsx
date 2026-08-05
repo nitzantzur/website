@@ -2,18 +2,10 @@ import PageWrapper from '@/components/layout/PageWrapper'
 import PageSEO from '@/components/seo/PageSEO'
 import AbstractToggle from '@/components/ui/AbstractToggle'
 import Tag from '@/components/ui/Tag'
-import { formatStatus } from '@/utils/formatters'
 import type { WorkingPaper } from '@/types/content'
 import wpData from '@/content/working-papers.json'
 
 const papers = wpData as WorkingPaper[]
-
-const STATUS_COLORS: Record<string, string> = {
-  'new': 'bg-emerald-50 text-emerald-700',
-  'under-review': 'bg-blue-50 text-blue-700',
-  'revise-resubmit': 'bg-amber-50 text-amber-700',
-  'draft': 'bg-slate-100 text-slate-600',
-}
 
 export default function WorkingPapers() {
   return (
@@ -32,17 +24,10 @@ export default function WorkingPapers() {
           <div className="space-y-10">
             {papers.map((paper) => (
               <article key={paper.id} className="border-b border-slate-100 pb-10">
-                <div className="flex items-start justify-between gap-4 mb-1.5">
+                <div className="mb-1.5">
                   <p className="font-serif text-[15px] leading-snug text-slate-900">
                     {paper.title}
                   </p>
-                  <span
-                    className={`flex-shrink-0 text-xs font-medium px-2 py-0.5 rounded ${
-                      STATUS_COLORS[paper.status] ?? STATUS_COLORS['draft']
-                    }`}
-                  >
-                    {formatStatus(paper.status)}
-                  </span>
                 </div>
 
                 {paper.coauthors.length > 0 && (
@@ -53,6 +38,9 @@ export default function WorkingPapers() {
 
                 <p className="text-xs text-slate-400 mb-2">
                   {paper.date.slice(0, 4)}
+                  {paper.status === 'revise-resubmit' && paper.journal && (
+                    <span className="ml-2 text-amber-700 font-medium">· R&R at {paper.journal}</span>
+                  )}
                 </p>
 
                 {/* Links */}

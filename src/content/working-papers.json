@@ -1,13 +1,14 @@
 [
   {
     "id": "wildfires-air-pollution-household-finance",
-    "title": "Extreme Wildfires, Distant Air Pollution, and Household Financial Health",
+    "title": "The Effects of Wildfire and Distant Air Pollution on Household Financial Well-Being",
     "coauthors": ["An, Xudong", "Gabriel, Stuart A."],
     "date": "2024-01",
     "abstract": "This paper links granular wildfire burn, smoke plume, air pollution, and credit bureau data to study how extreme wildfires and distant air pollution affect household financial health. We find that households exposed to wildfire smoke—even hundreds of miles from the fire—experience significant increases in credit card delinquency and declines in credit scores. Effects are concentrated among lower-income households and in areas with higher pollution sensitivity. The results highlight wildfire smoke as an important channel through which climate risk transmits to household financial distress.",
     "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4353113",
     "pdf": "",
     "status": "revise-resubmit",
+    "journal": "Management Science",
     "tags": ["household finance", "environmental economics", "wildfires", "air pollution"]
   },
   {
@@ -19,6 +20,7 @@
     "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3619105",
     "pdf": "",
     "status": "revise-resubmit",
+    "journal": "Journal of Financial Economics",
     "tags": ["mortgages", "housing", "financial regulation", "banking"]
   },
   {

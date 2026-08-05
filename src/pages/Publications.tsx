@@ -91,7 +91,7 @@ export default function Publications() {
                       <div className="flex flex-wrap gap-3 mb-2">
                         {pub.doi && !pub.doi.includes('PLACEHOLDER') && (
                           <a
-                            href={`https://doi.org/${pub.doi}`}
+                            href={pub.url ?? `https://doi.org/${pub.doi}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-xs link-default"

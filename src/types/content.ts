@@ -30,6 +30,7 @@ export interface Publication {
   issue?: string
   pages?: string
   doi?: string
+  url?: string
   ssrn?: string
   abstract: string
   tags: string[]
@@ -45,6 +46,7 @@ export interface WorkingPaper {
   ssrn?: string
   pdf?: string
   status: 'new' | 'revise-resubmit' | 'under-review' | 'draft'
+  journal?: string
   tags: string[]
 }
 
