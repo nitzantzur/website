@@ -54,9 +54,9 @@ export interface MediaItem {
   id: string
   outlet: string
   title: string
-  date: string
+  date?: string
   url: string
-  type: 'article' | 'podcast' | 'interview' | 'op-ed' | 'radio'
+  type: 'article' | 'podcast' | 'interview' | 'op-ed' | 'radio' | 'video'
   description?: string
 }
 

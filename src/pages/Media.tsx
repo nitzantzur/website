@@ -12,6 +12,7 @@ const TYPE_LABELS: Record<string, string> = {
   interview: 'Interview',
   'op-ed': 'Op-Ed',
   radio: 'Radio',
+  video: 'Video',
 }
 
 export default function Media() {
@@ -47,9 +48,11 @@ export default function Media() {
                       {TYPE_LABELS[item.type] ?? item.type}
                     </span>
                   </div>
-                  <span className="text-xs text-slate-400 flex-shrink-0">
-                    {formatDate(item.date)}
-                  </span>
+                  {item.date && (
+                    <span className="text-xs text-slate-400 flex-shrink-0">
+                      {formatDate(item.date)}
+                    </span>
+                  )}
                 </div>
                 <p className="text-sm font-medium text-slate-800 group-hover:text-brand-700 transition-colors leading-snug mb-1">
                   {item.title}

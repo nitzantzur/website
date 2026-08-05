@@ -1,20 +1,178 @@
 [
   {
-    "id": "wsj-mortgage-forbearance-2021",
-    "outlet": "The Wall Street Journal",
-    "title": "Millions Used Mortgage Forbearance to Stay Afloat. What Happens Now?",
-    "date": "2021-06-15",
-    "url": "https://www.wsj.com/articles/PLACEHOLDER",
-    "type": "article",
-    "description": "Coverage of research on CARES Act mortgage forbearance and household balance sheets during the pandemic."
+    "id": "ft-climate-finance-2024",
+    "outlet": "Financial Times",
+    "title": "Can the financial sector cope with a changing climate?",
+    "date": "",
+    "url": "https://www.ft.com/content/518af744-e66c-48d1-bcc3-4b041fa7c98b",
+    "type": "article"
   },
   {
-    "id": "dallas-fed-podcast-data-centers-2024",
-    "outlet": "Dallas Fed Podcast",
-    "title": "The Economic Footprint of Data Centers",
-    "date": "2024-10-01",
-    "url": "https://www.dallasfed.org/research/podcasts/PLACEHOLDER",
-    "type": "podcast",
-    "description": "Discussion of ongoing research on data center openings and their effects on local housing markets."
+    "id": "bloomberg-nyc-wildfire-smoke-2023",
+    "outlet": "Bloomberg",
+    "title": "Canada Wildfire Smoke Is New York City's New Climate Hazard",
+    "date": "2023-06-06",
+    "url": "https://www.bloomberg.com/opinion/articles/2023-06-06/new-york-city-s-new-climate-hazard-is-wildfire-smoke",
+    "type": "op-ed"
+  },
+  {
+    "id": "bloomberg-wildfire-wallet-2024",
+    "outlet": "Bloomberg",
+    "title": "Wildfire smoke gets in your eyes and then your wallet",
+    "date": "2024-09-27",
+    "url": "https://www.bloomberg.com/opinion/articles/2024-09-27/wildfire-smoke-gets-in-your-eyes-and-then-your-wallet",
+    "type": "op-ed"
+  },
+  {
+    "id": "national-observer-insurance-2024",
+    "outlet": "National Observer",
+    "title": "Climate fueled insurance hikes delinquent mortgages",
+    "date": "2024-11-28",
+    "url": "https://www.nationalobserver.com/2024/11/28/news/climate-fueled-insurance-hikes-delinquent-mortgages",
+    "type": "article"
+  },
+  {
+    "id": "latimes-la-rents-2025",
+    "outlet": "Los Angeles Times",
+    "title": "Rents likely to balloon in wake of L.A. wildfires, experts say",
+    "date": "2025-01-10",
+    "url": "https://www.latimes.com/homeless-housing/story/2025-01-10/rents-likely-to-balloon-in-wake-of-l-a-wildfires-experts-say",
+    "type": "article"
+  },
+  {
+    "id": "abc-hurricane-insurance-2024",
+    "outlet": "ABC News",
+    "title": "Hurricane Helene spotlights rising prices for home and flood insurance",
+    "date": "",
+    "url": "https://abcnews.go.com/Business/hurricane-helene-spotlights-rising-prices-home-flood-insurance/story?id=114273393",
+    "type": "article"
+  },
+  {
+    "id": "wsj-insurance-mortgage-cost",
+    "outlet": "Wall Street Journal",
+    "title": "Insurance and Taxes Now Cost More Than Mortgages for Many Homeowners",
+    "date": "",
+    "url": "https://www.wsj.com/economy/housing/home-insurance-property-tax-vs-mortgage-cost-43ab76ed",
+    "type": "article"
+  },
+  {
+    "id": "wsj-climate-insurance-stability",
+    "outlet": "Wall Street Journal",
+    "title": "Households Squeezed, and Financial Stability Risks Raised, as Climate Threats Boost Insurance Costs",
+    "date": "",
+    "url": "https://www.wsj.com/articles/pro-take-households-squeezed-and-financial-stability-risks-raised-as-climate-threats-boost-insurance-costs-fe1278fa",
+    "type": "article"
+  },
+  {
+    "id": "ucla-anderson-wildfire-smoke",
+    "outlet": "UCLA Anderson Review",
+    "title": "LA Residents Exposed to Wildfire Smoke Face Heightened Health and Financial Risk",
+    "date": "",
+    "url": "https://anderson-review.ucla.edu/la-residents-exposed-to-wildfire-smoke-face-heightened-health-and-financial-risk/",
+    "type": "article"
+  },
+  {
+    "id": "dallas-morning-news-eviction-2023",
+    "outlet": "Dallas Morning News",
+    "title": "Study shows eviction moratoriums gave Dallasites critical help",
+    "date": "2023-04-24",
+    "url": "https://www.dallasnews.com/news/2023/04/24/study-shows-eviction-moratoriums-gave-dallasites-critical-help/",
+    "type": "article"
+  },
+  {
+    "id": "economist-lending-controls-2021",
+    "outlet": "The Economist",
+    "title": "Can Lending Controls Solve The Problem of Unaffordable Housing?",
+    "date": "2021-10-02",
+    "url": "https://www.economist.com/finance-and-economics/2021/10/02/can-lending-controls-solve-the-problem-of-unaffordable-housing",
+    "type": "article"
+  },
+  {
+    "id": "promarket-eviction-2021",
+    "outlet": "ProMarket",
+    "title": "The Covid-19 Eviction Moratoriums Helped Reduce Food Insecurity and Mental Stress",
+    "date": "2021-10-27",
+    "url": "https://promarket.org/2021/10/27/covid-eviction-moratorium-food-insecurity-mental-stress-inequality/",
+    "type": "article"
+  },
+  {
+    "id": "forbes-covid-credit-2020",
+    "outlet": "Forbes",
+    "title": "How Credit Ratings are Shaping Government Responses to Covid-19?",
+    "date": "2020-08-19",
+    "url": "https://www.forbes.com/sites/effibenmelech/2020/08/19/how-credit-ratings-are-shaping-government-responses-to-covid-19/",
+    "type": "article"
+  },
+  {
+    "id": "commercial-observer-eviction-2021",
+    "outlet": "Commercial Observer",
+    "title": "Eviction Moratoriums Reduced Food Insecurity, Improved Renters' Mental Health: Study",
+    "date": "2021-08-01",
+    "url": "https://commercialobserver.com/2021/08/eviction-moratoriums-reduced-food-insecurity-improved-renters-mental-health-study/",
+    "type": "article"
+  },
+  {
+    "id": "la-daily-news-eviction-2021",
+    "outlet": "LA Daily News",
+    "title": "Evictions Are Expected to Spark Increase in Food Insecurity, Mental Duress, Say UCLA Researchers",
+    "date": "2021-08-02",
+    "url": "https://www.dailynews.com/2021/08/02/evictions-are-expected-to-spark-increase-in-food-insecurity-mental-duress-say-ucla-researchers/",
+    "type": "article"
+  },
+  {
+    "id": "globest-eviction-2020",
+    "outlet": "GlobeSt",
+    "title": "UCLA: Eviction Moratorium was the Right Response",
+    "date": "2020-08-11",
+    "url": "https://www.globest.com/2020/08/11/ucla-eviction-moratorium-was-the-right-response/",
+    "type": "article"
+  },
+  {
+    "id": "latimes-eviction-2020",
+    "outlet": "Los Angeles Times",
+    "title": "City Moratorium on Business Evictions Could Squeeze Landlords",
+    "date": "2020-03-18",
+    "url": "https://www.latimes.com/business/story/2020-03-18/city-moratorium-on-business-evictions-could-squeeze-landlords",
+    "type": "article"
+  },
+  {
+    "id": "youtube-macroprudential-2021",
+    "outlet": "Macroprudential Policy Conference",
+    "title": "Inequality and Distributional Effects",
+    "date": "2021-01-01",
+    "url": "https://www.youtube.com/watch?v=M_12K0VUluY",
+    "type": "video"
+  },
+  {
+    "id": "areuea-eviction-seminar",
+    "outlet": "AREUEA Virtual Seminar",
+    "title": "The Effects of Rental Eviction Moratoria on Household Well-Being",
+    "date": "",
+    "url": "https://psu.mediaspace.kaltura.com/media/AREUEA+Virtual+Seminar+-+Nitzan+Tzur-Ilan+%28Northwestern+University%29+-+%22More+Than+ShelterA+The+Effects+of+Rental+Eviction+Moratoria+on+Household+Well-Being%22/1_ffxmcbs3",
+    "type": "video"
+  },
+  {
+    "id": "ucla-eviction-health-2021",
+    "outlet": "UCLA Anderson",
+    "title": "Halting Evictions Preserves Health and Well-Being",
+    "date": "",
+    "url": "https://www.youtube.com/watch?v=RhNGoWm7QxE",
+    "type": "video"
+  },
+  {
+    "id": "youtube-ltv-housing-2016",
+    "outlet": "YouTube",
+    "title": "The Real Consequences of LTV Limits on Housing Choices",
+    "date": "2016-01-01",
+    "url": "https://www.youtube.com/watch?v=KDgZzpl4yec",
+    "type": "video"
+  },
+  {
+    "id": "assa-covid-vulnerable-2022",
+    "outlet": "AEA-ASSA 2022",
+    "title": "The Impact of the COVID-19 Pandemic on Vulnerable Populations",
+    "date": "2022-01-01",
+    "url": "https://www.aeaweb.org/conference/2022/aea-session-recordings/player?meetingId=558&recordingId=951",
+    "type": "video"
   }
 ]
