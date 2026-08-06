@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import NavBar from '@/components/layout/NavBar'
@@ -9,8 +10,20 @@ import Discussions from '@/pages/Discussions'
 import Media from '@/pages/Media'
 import OtherPublications from '@/pages/OtherPublications'
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+  }
+}
+
 export default function App() {
   const location = useLocation()
+
+  useEffect(() => {
+    window.gtag?.('config', 'G-6RLG3EHSKE', {
+      page_path: location.pathname + location.search,
+    })
+  }, [location])
 
   return (
     <div className="min-h-screen flex flex-col">
