@@ -1,6 +1,5 @@
 import PageWrapper from '@/components/layout/PageWrapper'
 import PageSEO from '@/components/seo/PageSEO'
-import SearchBar from '@/components/ui/SearchBar'
 import Tag from '@/components/ui/Tag'
 import AbstractToggle from '@/components/ui/AbstractToggle'
 import { useSearch } from '@/hooks/useSearch'
@@ -22,7 +21,7 @@ function groupByYear(items: Publication[]): [number, Publication[]][] {
 }
 
 export default function Publications() {
-  const { query, setQuery, activeFilters, toggleFilter, results, allTags } = useSearch(
+  const { activeFilters, toggleFilter, results, allTags } = useSearch(
     publications,
     ['title', 'authors', 'journal', 'abstract', 'tags', 'year'],
     'tags'
@@ -40,13 +39,8 @@ export default function Publications() {
       <main className="page-container">
         <h1 className="text-xl font-semibold text-slate-900 mb-8">Publications</h1>
 
-        {/* Search + Filters */}
+        {/* Filters */}
         <div className="mb-8 space-y-3">
-          <SearchBar
-            value={query}
-            onChange={setQuery}
-            placeholder="Search by title, author, journal, or keyword…"
-          />
           {allTags.length > 0 && (
             <div className="flex flex-wrap gap-2 pt-1">
               {allTags.map((tag) => (
@@ -62,7 +56,7 @@ export default function Publications() {
         </div>
 
         {results.length === 0 ? (
-          <p className="text-sm text-slate-500">No publications match your search.</p>
+          <p className="text-sm text-slate-500">No publications match the selected filters.</p>
         ) : (
           <div className="space-y-10">
             {grouped.map(([year, papers]) => (
