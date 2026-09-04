@@ -30,7 +30,7 @@ export default function Publications() {
                 {formatAuthors(pub.authors)}
               </p>
               <p className="text-sm text-slate-500 italic mb-2">
-                <span className="text-brand-600 font-medium not-italic">{pub.journal}</span>
+                <span className="text-brand-600 font-bold not-italic">{pub.journal}</span>
                 {formatCitationRest({
                   year: pub.year,
                   volume: pub.volume,
