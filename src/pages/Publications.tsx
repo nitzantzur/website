@@ -1,7 +1,7 @@
 import PageWrapper from '@/components/layout/PageWrapper'
 import PageSEO from '@/components/seo/PageSEO'
 import AbstractToggle from '@/components/ui/AbstractToggle'
-import { formatAuthors, formatCitation } from '@/utils/formatters'
+import { formatAuthors, formatCitationRest } from '@/utils/formatters'
 import type { Publication } from '@/types/content'
 import publicationsData from '@/content/publications.json'
 
@@ -30,8 +30,8 @@ export default function Publications() {
                 {formatAuthors(pub.authors)}
               </p>
               <p className="text-sm text-slate-500 italic mb-2">
-                {formatCitation({
-                  journal: pub.journal,
+                <span className="text-brand-600 font-medium not-italic">{pub.journal}</span>
+                {formatCitationRest({
                   year: pub.year,
                   volume: pub.volume,
                   issue: pub.issue,

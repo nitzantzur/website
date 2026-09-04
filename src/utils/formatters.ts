@@ -20,6 +20,25 @@ export function formatCitation(params: {
   return citation
 }
 
+// Same as formatCitation but without the leading journal name, so the
+// journal can be styled separately (see Publications.tsx).
+export function formatCitationRest(params: {
+  year: number
+  volume?: string
+  issue?: string
+  pages?: string
+}): string {
+  const { year, volume, issue, pages } = params
+  let citation = ''
+  if (volume) {
+    citation += `, ${volume}`
+    if (issue) citation += `(${issue})`
+  }
+  if (pages) citation += `, pp. ${pages}`
+  citation += `, ${year}`
+  return citation
+}
+
 export function formatDate(dateStr: string): string {
   // Handles "YYYY-MM-DD" and "YYYY-MM"
   const parts = dateStr.split('-')
