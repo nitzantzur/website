@@ -1,5 +1,26 @@
 [
   {
+    "id": "carey-correa-jain-2026",
+    "paper": "When Prices Begin to Reflect Risk: Evidence from a Reform in Hazard Insurance for U.S. Mortgages",
+    "authors": "Matthew Carey, Ricardo Correa, and Anil Jain",
+    "event": "System Conference on Financial Institutions, Regulation, and Markets",
+    "date": "2026-09-01"
+  },
+  {
+    "id": "fogarty-bass-2026",
+    "paper": "Sorting Over Wildfire Risk Information",
+    "authors": "Michael Fogarty and Sarah Bass",
+    "event": "20th North American Meeting of the Urban Economics Association",
+    "date": "2026-09-01"
+  },
+  {
+    "id": "ospital-2026",
+    "paper": "Housing Supply, Property Insurance, and Exposure to Wildfire Risk",
+    "authors": "Augusto Ospital",
+    "event": "20th North American Meeting of the Urban Economics Association",
+    "date": "2026-09-01"
+  },
+  {
     "id": "liu-fonseca-mabille-2026",
     "paper": "Unlocking Mortgage Lock-In: Evidence From a Spatial Housing Ladder Model",
     "authors": "Lu Liu, Julia Fonseca and Pierre Mabille",
