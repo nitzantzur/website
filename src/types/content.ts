@@ -25,6 +25,7 @@ export interface Publication {
   title: string
   authors: string[]
   journal: string
+  status?: 'accepted'
   year: number
   volume?: string
   issue?: string

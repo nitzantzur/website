@@ -31,7 +31,7 @@ export default function Publications() {
               </p>
               <p className="text-sm text-slate-500 italic mb-2">
                 <span className="text-brand-600 not-italic">{pub.journal}</span>
-                {formatCitationRest({
+                {pub.status === 'accepted' ? ', Accepted' : formatCitationRest({
                   year: pub.year,
                   volume: pub.volume,
                   issue: pub.issue,
