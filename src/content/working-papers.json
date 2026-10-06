@@ -12,17 +12,6 @@
     "tags": ["mortgages", "housing", "financial regulation", "banking"]
   },
   {
-    "id": "wildfire-pollution-healthcare-municipal-finance",
-    "title": "Up in Smoke: The Impact of Wildfire Pollution on Healthcare Municipal Finance",
-    "coauthors": ["Lopez, Luis", "Murphy, Dermot", "Wilkof, Sean"],
-    "date": "2024-01",
-    "abstract": "Wildfire smoke pollution is associated with significantly higher healthcare municipal borrowing costs. Using data on wildfire smoke exposure and municipal bond offerings by hospitals and health systems, we find that smoke-exposed issuers face higher yields at issuance. The effects are concentrated in areas with greater pollution exposure and among issuers with weaker balance sheets, consistent with investors pricing climate-related demand risk into healthcare municipal debt. The results highlight an underappreciated channel through which wildfire risk affects public finance.",
-    "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5040273",
-    "pdf": "",
-    "status": "under-review",
-    "tags": ["environmental economics", "wildfires", "municipal finance", "healthcare"]
-  },
-  {
     "id": "insurance-premiums-mortgage-delinquency",
     "title": "The Effect of Rising Insurance Premiums on Mortgage Delinquency and Household Relocation",
     "coauthors": ["Ge, Shan", "Johnson, Stephanie"],
@@ -33,6 +22,17 @@
     "status": "revise-resubmit",
     "journal": "The Review of Financial Studies",
     "tags": ["household finance", "mortgages", "insurance", "real estate"]
+  },
+  {
+    "id": "wildfire-pollution-healthcare-municipal-finance",
+    "title": "Up in Smoke: The Impact of Wildfire Pollution on Healthcare Municipal Finance",
+    "coauthors": ["Lopez, Luis", "Murphy, Dermot", "Wilkof, Sean"],
+    "date": "2024-01",
+    "abstract": "Wildfire smoke pollution is associated with significantly higher healthcare municipal borrowing costs. Using data on wildfire smoke exposure and municipal bond offerings by hospitals and health systems, we find that smoke-exposed issuers face higher yields at issuance. The effects are concentrated in areas with greater pollution exposure and among issuers with weaker balance sheets, consistent with investors pricing climate-related demand risk into healthcare municipal debt. The results highlight an underappreciated channel through which wildfire risk affects public finance.",
+    "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5040273",
+    "pdf": "",
+    "status": "under-review",
+    "tags": ["environmental economics", "wildfires", "municipal finance", "healthcare"]
   },
   {
     "id": "audit-partners-loan-loss-provisioning",
